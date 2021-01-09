@@ -21,8 +21,9 @@ highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "t
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : My blog
-description: > # this means to ignore newlines until "Language & timezone"
-  This is my website.
+description: This is my website.
+> # this means to ignore newlines until "Language & timezone"
+  
 
 
 ## => Language and Timezone
@@ -35,7 +36,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : Peter
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
@@ -214,6 +215,8 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+      sidebar:
+        nav: layouts
 
 
 ## => Plugins
