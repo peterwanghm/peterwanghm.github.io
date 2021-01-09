@@ -1,6 +1,6 @@
 ---
 title: My First Blog
-tags: Live
+tags: TeXt
 article_header:
   type: cover
   image:
