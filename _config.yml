@@ -22,6 +22,7 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : My blog
 description: This is my website.
+theme: jekyll-text-theme
 > # this means to ignore newlines until "Language & timezone"
   
 
